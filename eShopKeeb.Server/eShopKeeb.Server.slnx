@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/eShopKeeb.Server.ApiService/eShopKeeb.Server.ApiService.csproj" />
+    <Project Path="src/eShopKeeb.Server.AppHost/eShopKeeb.Server.AppHost.csproj" />
+    <Project Path="src/eShopKeeb.Server.ServiceDefaults/eShopKeeb.Server.ServiceDefaults.csproj" />
+    <Project Path="src/eShopKeeb.Server.Web/eShopKeeb.Server.Web.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/eShopKeeb.Server.Tests/eShopKeeb.Server.Tests.csproj" />
+  </Folder>
+</Solution>

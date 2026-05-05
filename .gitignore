@@ -1,0 +1,110 @@
+# =========================
+# OS / Editor
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+*.swo
+*.tmp
+*.temp
+*.log
+.vscode/
+.idea/
+*.sln.iml
+
+# =========================
+# Git
+# =========================
+.git-credentials
+
+# =========================
+# Node / React
+# =========================
+node_modules/
+.pnpm-store/
+.npm/
+.yarn/
+.yarn/cache/
+.yarn/unplugged/
+.yarn/build-state.yml
+.yarn/install-state.gz
+.parcel-cache/
+.next/
+out/
+build/
+dist/
+coverage/
+.nyc_output/
+*.tsbuildinfo
+vite.svg
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# =========================
+# .NET / C#
+# =========================
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+TestResults/
+*.user
+*.rsuser
+*.suo
+*.userosscache
+*.sln.docstates
+*.cache
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.dbmdl
+
+# NuGet
+*.nupkg
+*.snupkg
+*.nuspec
+packages/
+!**/packages/build/
+!**/packages/repositories.config
+*.nuget.props
+*.nuget.targets
+
+# .NET local tools & generated artifacts
+.dotnet/
+artifacts/
+
+# ASP.NET / IIS Express
+.vs/
+
+# =========================
+# Aspire / Distributed app local state
+# =========================
+aspire-manifest.json
+aspire-manifest.*.json
+*.dcproj.user
+
+# =========================
+# Docker / Containers
+# =========================
+.docker/
+**/docker-compose.override.yml
+
+# =========================
+# Secrets / Certificates
+# =========================
+*.pfx
+*.snk
+secrets.json
+appsettings.Development.json
+appsettings.Local.json
+
+# =========================
+# Misc
+# =========================
+*.bak
+*.orig
+*.rej

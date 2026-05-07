@@ -1,9 +1,19 @@
 <Solution>
   <Folder Name="/src/">
     <Project Path="src/eShopKeeb.Server.ApiService/eShopKeeb.Server.ApiService.csproj" />
+    <Project Path="src/eShopKeeb.Server.Web/eShopKeeb.Server.Web.csproj" />
+  </Folder>
+  <Folder Name="/src/AppHost/">
     <Project Path="src/eShopKeeb.Server.AppHost/eShopKeeb.Server.AppHost.csproj" />
     <Project Path="src/eShopKeeb.Server.ServiceDefaults/eShopKeeb.Server.ServiceDefaults.csproj" />
-    <Project Path="src/eShopKeeb.Server.Web/eShopKeeb.Server.Web.csproj" />
+  </Folder>
+  <Folder Name="/src/Contracts/">
+    <Project Path="src/eShopKeeb.Contract/eShopKeeb.Contract.csproj" Id="7751e98c-82ad-489e-88eb-193921429f40" />
+    <Project Path="src/eShopKeeb.Shared/eShopKeeb.Shared.csproj" Id="54e1b3a7-4227-41f3-862b-fb7581d28f48" />
+  </Folder>
+  <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/CatalogService/">
+    <Project Path="src/eShopKeeb.Catalog/eShopKeeb.Catalog.csproj" />
   </Folder>
   <Folder Name="/tests/">
     <Project Path="tests/eShopKeeb.Server.Tests/eShopKeeb.Server.Tests.csproj" />

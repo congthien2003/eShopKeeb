@@ -13,4 +13,8 @@ builder.AddProject<Projects.eShopKeeb_Server_Web>("webfrontend")
     .WithReference(apiService)
     .WaitFor(apiService);
 
+builder.AddProject<Projects.eShopKeeb_Server_Catalog>("eshopkeeb-server-catalog");
+
+builder.AddProject<Projects.eShopKeeb_Catalog>("eshopkeeb-catalog");
+
 builder.Build().Run();

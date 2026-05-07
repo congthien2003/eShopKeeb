@@ -9,6 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\eShopKeeb.Catalog\eShopKeeb.Catalog.csproj" />
     <ProjectReference Include="..\eShopKeeb.Server.ApiService\eShopKeeb.Server.ApiService.csproj" />
     <ProjectReference Include="..\eShopKeeb.Server.Web\eShopKeeb.Server.Web.csproj" />
   </ItemGroup>
